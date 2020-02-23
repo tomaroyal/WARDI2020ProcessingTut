@@ -22,16 +22,19 @@ Defines the interior color of shapes. The parameters follow:<br/>
 r — amount of red, from 0 (none) to 255 (maximum)<br/>
 g — amount of green, from 0 (none) to 255 (maximum)<br/>
 b — amount of blue, from 0 (none) to 255 (maximum)<br/>
+
 stroke(r, g, b)<br/>
 Defines the outline color of shapes. The parameters follow:<br/>
 r — amount of red, from 0 (none) to 255 (maximum)<br/>
 g — amount of green, from 0 (none) to 255 (maximum)<br/>
 b — amount of blue, from 0 (none) to 255 (maximum)<br/>
+
 background(r, g, b)<br/>
 Fills the canvas with a background color. The parameters follow:<br/>
 r — amount of red, from 0 (none) to 255 (maximum)<br/>
 g — amount of green, from 0 (none) to 255 (maximum)<br/>
 b — amount of blue, from 0 (none) to 255 (maximum)<br/>
+
 setup()<br/>
 The code inside the setup() block runs once when the program starts.
 
