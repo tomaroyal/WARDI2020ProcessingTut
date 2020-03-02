@@ -9,7 +9,7 @@ void setup(){
   
   printArray(Serial.list()); //prints all available serial ports
   
-  //port = new Serial(this, "COM3", 9600); //COM3 would be different for everyone
+  port = new Serial(this, "COM4", 9600); //COM3 would be different for everyone
   
   //lets add a button to this empty window
   cp5 = new ControlP5(this);
@@ -29,5 +29,5 @@ void draw(){
 }
 
 void LED(){
- //port.write('1');
+ port.write('1');
 }
